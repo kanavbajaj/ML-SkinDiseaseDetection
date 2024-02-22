@@ -1,0 +1,14 @@
+# data.yaml
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ["acne"]
+
+roboflow:
+  workspace: ance-yolo
+  project: acne-yolo
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ance-yolo/acne-yolo/dataset/13
